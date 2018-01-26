@@ -1,0 +1,95 @@
+body {
+  background-color: yellow;
+}
+
+header {
+ background-color: black;
+ margin: 0;
+ padding: 0 0px;
+ height: 50px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: yellow;
+    border-color: black;
+}
+
+
+
+.navbar.navbar-default.navbar-fixed-top.topnav{
+  background: black;
+}
+
+.container.nav{
+  background-color: black;
+}
+
+.navbar-default{
+    background-color: black;
+}
+
+.navbar-header{
+  background-color: black;
+}
+
+.nav.navbar-nav{
+  background-color: black;
+}
+
+/*toggle button*/
+.navbar-toggle{
+  border: none;
+  background-color: black;
+}
+
+.right{
+  text-align: right;
+}
+
+
+.nav.navbar-nav.navbar-left li a{
+  color:yellow;
+}
+
+.nav.navbar-nav.navbar-right li a{
+  color:yellow;
+}
+
+img{
+  margin-top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
+}
+
+p{
+  text-align: center;
+}
+
+
+@media all and (max-width:480px) {
+
+    img {margin-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+  }
+}
+
+@media all and (min-width:480px) {
+
+    img {margin-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+  }
+}
